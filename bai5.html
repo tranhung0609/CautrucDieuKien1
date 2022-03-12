@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = eval(prompt("Nhập điểm kiểm tra"));
+    let b = eval(prompt("Nhập điểm giữa kì"));
+    let c = eval(prompt("Nhập điểm cuối kì"));
+    let d = (a+b*2+c*3)/6;
+    if (d<3){
+        alert("Học lực yếu");
+    } else if(d<5){
+        alert("Học lực kém");
+    } else if(d<6.5){
+        alert("Học lực trung bình");
+    } else if (d<8.5){
+        alert("Học lực khá");
+    } else {
+        alert("Học lực giỏi");
+    }
+</script>
+</body>
+</html>
